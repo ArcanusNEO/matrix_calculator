@@ -29,7 +29,7 @@ FORMAT\n\
 
 void print_guide() {
     cout << guide;
-    system("pause");
+    //system("pause");
     exit(EXIT_FAILURE);
 }
 
