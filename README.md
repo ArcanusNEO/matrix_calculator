@@ -42,7 +42,7 @@
 > 1:
 >> 输入  
 
->> matrix_calculator -I  
+>> ./matrix_calculator -I  
 >>  4 4  
 >>  1 2 3 4  
 >>  5 6 7 8  
@@ -56,7 +56,7 @@
 > 2:
 >> 输入  
 
->> matrix_calculator -M  
+>> ./matrix_calculator -M  
 >>  4 4  
 >>  1 2 1 0  
 >>  0 2 0 1  
@@ -74,3 +74,8 @@
 >>  0 1 0 0  
 >>  0 0 1 0  
 >>  0 0 -0 1  
+
+# 编译
+#### g++ -c matrix.cpp matrix_calculator.cpp
+#### g++ matrix.o matrix_calculator.o -o matrix_calculator
+##### Windows下改名为matrix_calculator.exe
