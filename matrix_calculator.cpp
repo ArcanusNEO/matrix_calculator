@@ -13,7 +13,7 @@ OPTIONS\n\
         -M\n\
             Reads two matrices from stdin, prints their outer product to stdout.\n\
         -m\n\
-            Reads a matrix and a number from stdin, prints their inner product to stdout.\n\
+            Reads a matrix and a number from stdin, prints their product to stdout.\n\
             NOTE: The matrix MUST be in front of the number.\n\
         -I\n\
             Reads a matrix from stdin, prints its inverse matrix to stdout.\n\
