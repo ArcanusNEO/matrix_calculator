@@ -24,7 +24,7 @@ OPTIONS\n\
 FORMAT\n\
         matrix:\n\
         row_size column_size\n\
-        ...(your matrix)\n";
+        ...(matrix here)\n";
 
 
 void print_guide() {
